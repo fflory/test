@@ -4,6 +4,7 @@ def introduction():
     print("Welcome to the Adventure Game!")
     print("You are standing at the edge of a dark forest.")
     print("In front of you are two paths: a left path and a right path.")
+    print("what will you do?")
     print("Which path will you choose?")
 
 def choose_path():
