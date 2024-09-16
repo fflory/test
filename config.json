@@ -1,0 +1,48 @@
+{
+  "app": {
+    "name": "MyApp",
+    "version": "1.0.0",
+    "debug": true,
+    "port": 8080
+  },
+  "database": {
+    "host": "localhost",
+    "port": 5432,
+    "username": "admin",
+    "password": "password123",
+    "name": "my_database"
+  },
+  "logging": {
+    "level": "info",
+    "file": "/var/log/myapp.log",
+    "maxSize": "10MB",
+    "maxFiles": 5
+  },
+  "features": {
+    "enableFeatureX": true,
+    "enableFeatureY": false,
+    "maxUsers": 1000
+  },
+  "api": {
+    "baseURL": "https://api.example.com",
+    "timeout": 3000,
+    "retries": 3
+  },
+  "security": {
+    "jwtSecret": "your-jwt-secret-key",
+    "tokenExpiration": "1h",
+    "encryptionKey": "your-encryption-key"
+  },
+  "externalServices": {
+    "paymentGateway": {
+      "apiKey": "your-payment-gateway-api-key",
+      "endpoint": "https://api.paymentgateway.com"
+    },
+    "emailService": {
+      "smtpServer": "smtp.mailtrap.io",
+      "port": 587,
+      "username": "email_user",
+      "password": "email_password"
+    }
+  }
+}
