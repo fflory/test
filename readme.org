@@ -1,3 +1,1 @@
-# this repository is just for testing stuff
-
-here's an edit
+# this repository is just for testing some stuff
