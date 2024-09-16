@@ -41,7 +41,7 @@
     "emailService": {
       "smtpServer": "smtp.mailtrap.io",
       "port": 587,
-      "username": "email_user",
+      "username": "felix.flory@gmail.com",
       "password": "email_password"
     }
   }
