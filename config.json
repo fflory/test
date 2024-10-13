@@ -1,7 +1,7 @@
 {
   "app": {
     "name": "MyApp",
-    "version": "1.0.1",
+    "version": "1.0.2",
     "debug": true,
     "port": 8080
   },
@@ -41,7 +41,7 @@
     "emailService": {
       "smtpServer": "smtp.mailtrap.io",
       "port": 587,
-      "username": "email_user",
+      "username": "felix.flory@gmail.com",
       "password": "email_password"
     }
   }
