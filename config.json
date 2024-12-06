@@ -1,7 +1,7 @@
 {
   "app": {
     "name": "MyApp",
-    "version": "1.3.`1`", # main
+    "version": "1.3.`1`", # main Commit B
     "debug": true,
     "port": 8080
   },
